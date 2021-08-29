@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/restaurantFragment">
+
+    <fragment
+        android:id="@+id/restaurantFragment"
+        android:name="com.cricbuzz.restaurant.RestaurantFragment"
+        android:label="fragment_restaurant"
+        tools:layout="@layout/fragment_restaurant" >
+        <action
+            android:id="@+id/action_restaurantFragment_to_infoFragment"
+            app:destination="@id/restaurantInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantInfoFragment"
+        android:name="com.cricbuzz.restaurant.RestaurantInfoFragment"
+        android:label="fragment_restaurant_info"
+        tools:layout="@layout/fragment_restaurant_info" >
+        <argument
+            android:name="restaurantId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

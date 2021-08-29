@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="OperatingHour"
+            type="com.cricbuzz.restaurant.data.model.OperatingHours" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/m10"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="start"
+                android:padding="@dimen/p20"
+                android:text="@string/operating_hours"
+                android:textColor="@color/maroon"
+                android:textSize="@dimen/t13"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/p5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="@dimen/p5"
+                    android:text="@string/monday"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"
+                    android:text="@{OperatingHour.monday}"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/p5">
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="@dimen/p5"
+                    android:text="@string/tuesday"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"
+                    android:text="@{OperatingHour.tuesday}"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/p5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="@dimen/p5"
+                    android:text="@string/wednesday"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"
+                    android:text="@{OperatingHour.wednesday}"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/p5">
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="@dimen/p5"
+                    android:text="@string/thursday"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"
+                    android:text="@{OperatingHour.thursday}"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/p5">
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="@dimen/p5"
+                    android:text="@string/friday"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"
+                    android:text="@{OperatingHour.friday}"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/p5">
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="@dimen/p5"
+                    android:text="@string/saturday"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"
+                    android:text="@{OperatingHour.saturday}"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/p5">
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="@dimen/p5"
+                    android:text="@string/sunday"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="@dimen/m0"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"
+                    android:text="@{OperatingHour.sunday}"
+                    android:textSize="@dimen/t12"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

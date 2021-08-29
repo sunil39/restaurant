@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cricbuzz</string>
+    <string name="operating_hours">Operating Hours</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="search">Search.....</string>
+    <string name="cancel">Cancel</string>
+    <string name="satisfy_your_snack_attack">Satisfy your snack attack.</string>
+    <string name="every_day_is_a_good_day_for_your_restaurant">Every day is a good day for your restaurant</string>
+    <string name="restaurant_information">Restaurant Information</string>
+    <string name="restaurant_logo">Restaurant Logo</string>
+</resources>
