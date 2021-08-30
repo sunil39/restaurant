@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:background="@color/white"
         android:orientation="vertical"
-        tools:context=".RestaurantFragment">
+        tools:context=".presentation.fragment.RestaurantFragment">
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appBarLayout2"

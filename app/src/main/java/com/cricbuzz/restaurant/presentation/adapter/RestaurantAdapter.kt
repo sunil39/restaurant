@@ -27,14 +27,13 @@ class RestaurantAdapter : RecyclerView.Adapter<RestaurantAdapter.RestaurantViewH
     val differ = AsyncListDiffer(this, callback)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RestaurantViewHolder {
-        val binding =
-            RestaurantCardBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding = RestaurantCardBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return RestaurantViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: RestaurantViewHolder, position: Int) {
-        val article = differ.currentList[position]
-        holder.bind(article)
+        val restaurant = differ.currentList[position]
+        holder.bind(restaurant)
     }
 
     override fun getItemCount(): Int {

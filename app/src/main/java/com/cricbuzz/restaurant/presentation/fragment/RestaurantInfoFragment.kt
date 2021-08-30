@@ -1,4 +1,4 @@
-package com.cricbuzz.restaurant
+package com.cricbuzz.restaurant.presentation.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
+import com.cricbuzz.restaurant.MainActivity
 import com.cricbuzz.restaurant.data.util.Constants
 import com.cricbuzz.restaurant.databinding.FragmentRestaurantInfoBinding
 import com.cricbuzz.restaurant.presentation.adapter.RestaurantPagerAdapter

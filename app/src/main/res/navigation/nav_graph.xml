@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/restaurantFragment"
-        android:name="com.cricbuzz.restaurant.RestaurantFragment"
+        android:name="com.cricbuzz.restaurant.presentation.fragment.RestaurantFragment"
         android:label="fragment_restaurant"
         tools:layout="@layout/fragment_restaurant" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/restaurantInfoFragment"
-        android:name="com.cricbuzz.restaurant.RestaurantInfoFragment"
+        android:name="com.cricbuzz.restaurant.presentation.fragment.RestaurantInfoFragment"
         android:label="fragment_restaurant_info"
         tools:layout="@layout/fragment_restaurant_info" >
         <argument

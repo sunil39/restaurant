@@ -1,4 +1,4 @@
-package com.cricbuzz.restaurant
+package com.cricbuzz.restaurant.presentation.fragment
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -14,6 +14,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.cricbuzz.restaurant.MainActivity
 import com.cricbuzz.restaurant.data.util.Constants
 import com.cricbuzz.restaurant.databinding.FragmentRestaurantBinding
 import com.cricbuzz.restaurant.presentation.adapter.RestaurantAdapter
@@ -120,7 +121,6 @@ class RestaurantFragment : Fragment() {
         fragmentRestaurantBinding.searchIcon.visibility = View.VISIBLE
         fragmentRestaurantBinding.searchSection.visibility = View.GONE
         hideKeyboard()
-        viewRestaurantList()
     }
 
 

@@ -1,4 +1,4 @@
-package com.cricbuzz.restaurant
+package com.cricbuzz.restaurant.presentation.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.cricbuzz.restaurant.MainActivity
 import com.cricbuzz.restaurant.data.util.Constants
 import com.cricbuzz.restaurant.databinding.FragmentReviewBinding
 import com.cricbuzz.restaurant.presentation.adapter.ReviewAdapter
